@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mern-task-manager-waos.onrender.com",
+  baseURL: "https://mern-task-manager-waos.onrender.com/api",
 });
 
 // Add JWT token automatically
